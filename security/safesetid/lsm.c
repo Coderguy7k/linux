@@ -53,7 +53,7 @@ enum sid_policy_type _setid_policy_lookup(struct setid_ruleset *policy,
 			result = SIDPOL_CONSTRAINED;
 		}
 	} else {
-		/* Should not reach here, report the ID as contrainsted */
+		/* Should not reach here, report the ID as constrained */
 		result = SIDPOL_CONSTRAINED;
 	}
 	return result;
